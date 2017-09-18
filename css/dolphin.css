@@ -18,4 +18,11 @@ html {
   right: 0;
 }
 
-/* Write your solution here * 1020/
+/* Write your solution here * 1020*/
+@media only screen and (min-width: 642px) and (max-width: 1090px) {
+  #dolphin {
+    -ms-transform: rotate(70deg); /* IE 9 */
+    -webkit-transform: rotate(70deg); /* Chrome, Safari, Opera */
+    transform: rotate(70deg);
+  }
+} 
